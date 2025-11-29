@@ -16,7 +16,7 @@ from app.models.news_models import NewsState, NewsCity, Newspaper, NewsAnalysisL
 from app.dependencies import RoleChecker, get_current_user
 from app.services.news_scraper import fetch_all_news
 from app.services.news_selection import build_prioritized_newspaper_dicts
-from app.ml.news_classifier import DisasterNewsClassifier
+from app.ML.news_classifier import DisasterNewsClassifier
 from app.models.user_family_models import User
 
 logger = logging.getLogger(__name__)
